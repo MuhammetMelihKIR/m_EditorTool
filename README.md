@@ -20,7 +20,7 @@ Objects without folders are automatically transferred to the files you specify.
 
 ![FolderOrganizer](https://github.com/user-attachments/assets/7bf7843b-2fcc-442f-847e-6c8229e5b4ad)
 
-<img src="https://github.com/user-attachments/assets/7bf7843b-2fcc-442f-847e-6c8229e5b4ad" width="800px" height="600px" />
+<img src="https://github.com/user-attachments/assets/7bf7843b-2fcc-442f-847e-6c8229e5b4ad" width="600px" height="400px" />
 
 ## Create Folders
 Automatic folder creation.
