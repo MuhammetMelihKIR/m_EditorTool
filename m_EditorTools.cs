@@ -225,7 +225,6 @@ public class FolderOrganizer : EditorWindow
 
         #region REMOVE EMPTY FOLDERS
 
-        // Başlık
         var removeEmptyFoldersPanel = new VisualElement();
         removeEmptyFoldersPanel.AddToClassList("folder-creation-panel");
         var removeEmptyFoldersLabel = new Label("Remove Empty Folders");
@@ -235,8 +234,7 @@ public class FolderOrganizer : EditorWindow
         Edit.EditLabel(removeEmptyFoldersLabel);
         Edit.EditPanel(removeEmptyFoldersPanel);
         root.Add(removeEmptyFoldersLabel);
-
-        // Buton
+        
         Button removeEmptyFoldersButton = new Button(RemoveEmptyFolders) { text = "Remove Empty Folders" };
         root.Add(removeEmptyFoldersButton);
         
@@ -247,8 +245,7 @@ public class FolderOrganizer : EditorWindow
         #endregion
 
         #region ORGANIZATION ASSETS
-
-        // Başlık
+        
         var organizationAssetsPanel = new VisualElement();
         organizationAssetsPanel.AddToClassList("folder-creation-panel");
         var organizationAssetsLabel = new Label("Organization Assets");
@@ -258,8 +255,7 @@ public class FolderOrganizer : EditorWindow
         Edit.EditLabel(organizationAssetsLabel);
         Edit.EditPanel(organizationAssetsPanel);
         root.Add(organizationAssetsLabel);
-        
-        // Buton
+                
         var organizeButton = new Button(OrganizeAssets) { text = "Organize Assets" };
         root.Add(organizeButton);
         
@@ -299,7 +295,6 @@ public class FolderOrganizer : EditorWindow
             { ".unity", "Assets/Scenes" }
         };
 
-        // Klasörleri oluştur
         foreach (var folder in folderMappings.Values.Distinct())
         {
             CreateFolder(folder);
