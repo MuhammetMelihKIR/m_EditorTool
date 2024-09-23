@@ -2,6 +2,14 @@
 
 ## Folder Organizer
 Objects without folders are automatically transferred to the files you specify.
+public class FolderOrganizer : EditorWindow
+{
+    [MenuItem("m_EditorTools/Folder Organizer", false, 1)]
+    public static void ShowWindow()
+    {
+        FolderOrganizer window = GetWindow<FolderOrganizer>("Folder Organizer");
+        window.minSize = new Vector2(250, 100);
+    }
 ![FolderOrganizer](https://github.com/user-attachments/assets/7bf7843b-2fcc-442f-847e-6c8229e5b4ad)
 
 ## Create Folders
