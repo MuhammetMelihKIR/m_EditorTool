@@ -1,7 +1,7 @@
 # m_EditorTool
 
 ## Folder Organizer
-1-Empty files are deleted shortly.
+1-Empty files are deleted shortly.                                                   
 2-Objects without folders are automatically transferred to the files you specify. 
 
 ```C#
