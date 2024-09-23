@@ -49,4 +49,18 @@ private void CreateFolders()
 ![createFolder](https://github.com/user-attachments/assets/740d2f9a-ba5f-45dc-b3be-546accbf6fb5)
 
 ## Add Package
+You can quickly add packages you use frequently.
+
+```C#
+ private List<string> packages = new List<string>   // ADD PACKAGES HERE
+    {
+        "com.unity.recorder",
+        "com.unity.cinemachine",
+        "com.unity.2d.tilemap.extras",
+        "com.unity.timeline",
+        "com.unity.postprocessing"
+    };
+
+```
+
 ![package](https://github.com/user-attachments/assets/f57940e6-f991-490c-8d9c-d6d7ece4de8b)
