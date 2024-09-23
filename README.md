@@ -1,7 +1,9 @@
 # m_EditorTool
 
 ## Folder Organizer
-Objects without folders are automatically transferred to the files you specify.
+1-Empty files are deleted shortly.
+2-Objects without folders are automatically transferred to the files you specify. 
+
 ```C#
  private void OrganizeAssets() // ASSETS ORGANIZATION
     {
