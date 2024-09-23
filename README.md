@@ -2,6 +2,21 @@
 
 ## Folder Organizer
 Objects without folders are automatically transferred to the files you specify.
+```C#
+ private void OrganizeAssets() // ASSETS ORGANIZATION
+    {
+        var folderMappings = new Dictionary<string, string>
+        {
+            { ".wav", "Assets/Audio" },
+            { ".mp3", "Assets/Audio" },
+            { ".png", "Assets/Textures" },
+            { ".jpg", "Assets/Textures" },
+            { ".cs", "Assets/Scripts" },
+            { ".prefab", "Assets/Prefabs" },
+            { ".asset", "Assets/Data/SO" },
+            { ".unity", "Assets/Scenes" }
+        };
+```
 
 ![FolderOrganizer](https://github.com/user-attachments/assets/7bf7843b-2fcc-442f-847e-6c8229e5b4ad)
 
